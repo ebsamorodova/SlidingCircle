@@ -27,7 +27,8 @@ class SlidingCircle : View() {
         }
 
         onMouseMoved = EventHandler {
-            myCircle.move(time = Duration(50.0), destination = Point2D(it.x - width / 2, it.y - height / 2))
+            val destinationPoint = Point2D(it.x - width / 2, it.y - height / 2)
+            myCircle.move(time = Duration(50.0), destination = destinationPoint)
         }
     }
 }
