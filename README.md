@@ -10,4 +10,4 @@
 Для запуска приложения достаточно архива `circleProject-1.2.zip -> bin -> circleProject -> run`
 
 **Пример работы**     
-![кружочек](https://i.ibb.co/tK4FxPj/Screenshot-from-2020-03-29-12-05-07.png)
+![кружочек](https://i.ibb.co/8d3PC16/Screenshot-from-2020-03-29-12-23-30.png)
