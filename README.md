@@ -7,8 +7,22 @@
 что делает движение более плавным.
 
 **Запуск**     
-Для запуска нужна 11+ версия java. Запустить приложение можно из архива:    
-```circleProject-1.2.zip -> bin -> circleProject -> run```
+Для запуска нужна 11+ версия java. Собрать и запустить приложение:
+```
+./gradlew build
+./gradlew run
+```
+Собрать дистрибутив:
+```
+./gradlew distzip
+```
+
+Собранный дистрибутив находится в ```build/distributions```, для запуска:
+```
+unzip circleProject-1.2.zip
+cd circleProject/bin 
+./circleProject
+```
 
 **Пример работы**     
 ![кружочек](https://i.ibb.co/8d3PC16/Screenshot-from-2020-03-29-12-23-30.png)
