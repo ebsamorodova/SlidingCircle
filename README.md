@@ -20,7 +20,7 @@
 Собранный дистрибутив находится в ```build/distributions```, для запуска:
 ```
 unzip circleProject-1.2.zip
-cd circleProject/bin 
+cd circleProject-1.2/bin 
 ./circleProject
 ```
 
